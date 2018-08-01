@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attrListPage</title>
+</head>
+<body>
+    <table title="属性列表" class="easyui-datagrid" style="width:100%;height:100%"
+           data-options="fitColumns:true,singleSelect:true,toolbar:'#tb'">
+        <thead>
+        <tr>
+            <th data-options="field:'id',width:100">编码</th>
+            <th data-options="field:'attrName',width:100">属性列表</th>
+        </tr>
+        </thead>
+    </table>
+
+    <div id="tb">
+        <a class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a>
+        <a class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">编辑</a>
+        <a class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true">删除</a>
+        <div>
+            一級分類:<input id="cc1" class="easyui-combobox" data-options="">
+            二級分類:<input id="cc2" class="easyui-combobox" data-options="">
+            三級分類:<input id="cc3" class="easyui-combobox" data-options="">
+
+        </div>
+    </div>
+
+</body>
+</html>
